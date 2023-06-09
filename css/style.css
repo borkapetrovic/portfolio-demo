@@ -5,11 +5,12 @@
 /* Overall */
 
 html {
-  
+  scroll-behavior: smooth;
 }
 
 body {
-  
+  background-color: #000719;
+  color: #f6f0f0;
 }
 
 
@@ -39,5 +40,32 @@ p {
 }
 
 a {
+
+}
+
+/*Nav*/
+#nav {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 40px;
+    line-height: 60px;
+}
+
+#nav li:hover {
+    color:#2980FF;
+    transform: scale(1.1);
+    border-bottom: 3px solid #298DFF;
+    margin-right: 60px;
+    transform: rotate
+    transition-duration: 500ms;
+    cursor: pointer;
 
 }
