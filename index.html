@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>My First Portfolio</title>
+    <title>My Name Portfolio</title>
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio">
     <meta name="keywords" content="Design, UX, UI, Portfolio">
@@ -16,57 +16,90 @@
 </head>
 
 <body>
+<!--Logo-->
+<div id="logo">
+    Borka Petrovic
+</div>  
 
  <!--This is my nav-->
     <ul id="nav">
-        <a href="portfolio">
+        <a href="#portfolio">
         <li>Portfolio</li>
-        </a>
-        
+    </a>
+        <a href="#bio">
         <li>Bio</li>
+    </a>
+
+        <a href="#cv">
         <li>CV</li>
+        </a>
+        <a href="#contact">
         <li>Contact</li>
+    </a>
     </ul>
 
-    <h1>This is my portfolio!</h1>
+    <!--Hero Section-->
+
+<div class="section">
+    <div id="heroText">
+      <h1 class="Center-align">Borka Petrovic</h1>
+      <h1 class="Center-align">UX/UI Designer</h1>
+    </div>
+</div>
+
+<!--Portfolio Section-->
+
+<div id="portfolio" class="section">
+    <h2 class="Center-align">Portfolio</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="caseStudy"></div>
+                <div class="caseStudy"></div>
+                <div class="caseStudy"></div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="caseStudy"></div>
+                <div class="caseStudy"></div>
+                <div class="caseStudy"></div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="caseStudy"></div>
+                <div class="caseStudy"></div>
+                <div class="caseStudy"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Bio Section-->
+
+<div id="bio" class="section">
+    <h2 class="Center-align">Bio</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <p></p>
+            </div>
+
+    </div>
+</div>
+
+<!--CV Section-->
+
+<div id="cv" class="section">
+    <h2 class="Center-align">CV</h2>
+</div>
+
+<!--Contact Section-->
+
+<div id="contact" class="section">
+    <h2 class="Center-align"></h2>
+</div>
+
 
     <!--This is where I load the Javascript-->
     <script src="js/main.js"></script>
-
-    <!--Hero Section-->
-    <div class="section">
-        <h1>Borka Petrovic</h1>
-        <h1>UX/UI Designer</h1>
-    </div>
-
-     <!--Portfolio Section-->
-     <div id="portfolio" class="section">
-        <h2>Portfolio</h2>
-    </div>
-
-    <!--Bio Section-->
-    <div id="Bio" class="section">
-        <h2>Bio</h2>
-    </div>
-
-      <!--CV Section-->
-      <div id="CV" class="section">
-        <h2>CV</h2>
-    </div>
-
-    <!--Contact Section-->
-    <div id="Contact" class="section">
-        <h2>Contact</h2>
-    </div>
-
-    /*Page
-
-
-
-    <h1>This is my portfolio!</h1>
-
-    <!-- JS -->
-    <script src="js/main.js"></script>
-</body>  
-
+    </body>
 </html>

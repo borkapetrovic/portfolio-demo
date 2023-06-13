@@ -11,6 +11,8 @@ html {
 body {
   background-color: #000719;
   color: #f6f0f0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -43,6 +45,13 @@ a {
 
 }
 
+/*Logo*/
+#logo {
+    position: fixed;
+    top: 24px;
+    left: 40px;
+    font-size: 32px;
+}
 /*Nav*/
 #nav {
     position: fixed;
@@ -51,21 +60,42 @@ a {
     margin: 0;
     padding: 0;
 }
-
+#nav a {
+    color: white;
+}
 #nav li {
     display: inline-block;
     font-size: 24px;
     margin-right: 40px;
-    line-height: 60px;
+    line-height: 100px;
 }
 
 #nav li:hover {
     color:#2980FF;
     transform: scale(1.1);
-    border-bottom: 3px solid #298DFF;
-    margin-right: 60px;
-    transform: rotate
     transition-duration: 500ms;
     cursor: pointer;
 
+}
+
+/*Page Layout*/
+.section {
+    min-height: 100vh;
+}
+
+#heroText {
+    margin-top: 40vh;
+}
+
+#bio {
+    background-image: url('../images/bio-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caseStudy {
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
 }
