@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>My Name Portfolio</title>
+    <title>Borka's Portfolio</title>
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio">
     <meta name="keywords" content="Design, UX, UI, Portfolio">
@@ -13,62 +13,93 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </head>
 
 <body>
+
 <!--Logo-->
 <div id="logo">
-    Borka Petrovic
+    <img src="../portfolio-demo/images/Logo New.svg">
 </div>  
 
- <!--This is my nav-->
-    <ul id="nav">
-        <a href="#portfolio">
-        <li>Portfolio</li>
-    </a>
-        <a href="#bio">
-        <li>Bio</li>
-    </a>
+<!--This is my nav-->
+    <div id="navTrigger" onclick="toggleNav()"></div>
 
-        <a href="#cv">
-        <li>CV</li>
-        </a>
-        <a href="#contact">
-        <li>Contact</li>
-    </a>
-    </ul>
-
-    <!--Hero Section-->
-
-<div class="section">
-    <div id="heroText">
-      <h1 class="Center-align">Borka Petrovic</h1>
-      <h1 class="Center-align">UX/UI Designer</h1>
+    <div id="navWrapper">
+        <ul id="nav">
+          <a href="#portfolio" onclick="toggleNav()">
+             <li>PORTFOLIO</li>
+          </a>
+          <a href="#bio" onclick="toggleNav()">
+             <li>BIO</li>
+          </a>
+          <a href="#cv" onclick="toggleNav()">
+             <li>CV</li>
+          </a>
+          <a href="#contact" onclick="toggleNav()">
+             <li>CONTACT</li>
+          </a>
+        </ul>
     </div>
-</div>
+
+<!--Hero Section-->
+    <div id="hero" class="section">
+        <div class="liquid">
+            <h1 class="Center-align">BORKA PETROVIC<br>UX/UI DESIGNER</h1>
+            <h1 class="Center-align">BORKA PETROVIC<br>UX/UI DESIGNER</h1>
+            <h1 class="Center-align">BORKA PETROVIC<br>UX/UI DESIGNER</h1>
+            <h1 class="Center-align">BORKA PETROVIC<br>UX/UI DESIGNER</h1>
+        </div>
+            <a href="#portfolio">
+                <div class="arrow"></div>    
+            </a>
+    </div>
+
 
 <!--Portfolio Section-->
-
 <div id="portfolio" class="section">
-    <h2 class="Center-align">Portfolio</h2>
+
+    <h2 class="Center-align">PORTFOLIO</h2>
     <div class="container">
         <div class="row">
-            <div class="col s12 m8 l8">
-                <img src="images/project-preview.jpg"/>
-            </div>
-            <div class="col s12 m4 l4">
-                <h3>Project Title</h3>
-                <p>Description of Project</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m4 l4">
-                <h3>Project Title</h3>
-                <p>Description of Project</p>
-            </div>
+            <div class="col s12 m6 l6">
 
-                <div class="col s12 m8 l8">
-                    <img src="images/project-preview.jpg"/>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/project-preview.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-content">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col s12 m6 l6">
+
+                <div class="doxacard">
+                    <div class="doxacard-image">
+                        <img src="images/Doxa cover card image.png">
+                    </div>
+                    <div class="doxacard-content">
+                        <span class="doxacard-content">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+
+                <div class="card3">
+                    <div class="card3-image">
+                        <img src="images/project-preview.jpg">
+                    </div>
+                    <div class="card3-content">
+                        <span class="card3-content">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -76,32 +107,138 @@
 
 
 <!--Bio Section-->
-
 <div id="bio" class="section">
-    <h2 class="Center-align">Bio</h2>
     <div class="container">
         <div class="row">
-            <div class="col s12 m6 l6">
-                <p></p>
+            <div class="col s12 m12 l4">
+            </div>
+            <div class="col s12 m12 l8">
+                <h2 class="center-align">Bio</h2>
+                <div class="myCard">
+                    <div class="myCard">
+                        <span class="mycard-content">Cao Ljudi,</span>
+                        <p>Hey there! I'm Borka, a UX/UI designer with a touch of magic and a lot of humor. I was born in a country that no longer exists, and I left war-torn Yugoslavia in pursuit of my American Dream. Talk about taking design to new dimensions!
+                        </p>
+                        <p>My design journey began with studying urban geography and wandering through cities. I'm a fan of William "Holy" Whyte and his mantra: "You have to get out and walk!" After all, everything looks different from a human perspective, especially when you're on a flying carpet bridging two worlds.
+                            I've got a background in landscape architecture too, which adds another layer to my design skills. But lately, I've been on fire with UX/UI design, sparking exciting possibilities. I love using human-centered and responsive design principles. It's like completing a cosmic loop where I can unleash my creativity, even while floating on my enchanted carpet. Talk about flexibility!</p>
+                        <p>Design isn't just a job for me; it's a way of life. I bring design principles into everything I do, from self-care to advocating for those with invisible chronic diseases. And with a name that means "female fighter," I continue to "fight like a girl!" Coincidentally, my name also means a pine tree, symbolizing wisdom and longevity. So, I embrace that symbolism and cherish my beloved Aleppo Pine, which brings back wonderful childhood memories.</p>
+                        <p>But hey, design isn't my only passion. I'm a lover and collector of niche perfumes, a fashionista, a concertgoer, and a huge fan of the band Tool! So let's connect, keep rocking, and add some design magic to the mix!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <!--CV Section-->
-
 <div id="cv" class="section">
     <h2 class="Center-align">CV</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h4 class="TitleEd">Education</h4>
+                <ol class="Education">
+                    <li class="design">UX/UI Design Certificate</li>
+                    <p>University of Texas, Austin - 2023</p>
+                    <li class="landscape">MLA Landscape Architecture</li>
+                    <p>University of Oregon - 2022</p>
+                    <li class="urban">Urban Design in Barcelona</li>
+                    <p>University of Oregon - 2017</p>
+                    <li class="mapping">Mapping in Hong Kong</li>
+                    <p>University of Oregon/<br>University of Hong Kong - 2016</p>
+                    <li class="geography">BS Geography - Urban Studies</li>
+                    <p>Arizona State University - 2013</p>
+                    <li class="gis">GIS Certificate</li>
+                    <p>Arizona State University - 2013</p>
+                </ol>
+
+            <h4 class="TitleSk">Skills</h4>
+            <ol class="Skills">
+                <ol class="col s12 m6 l6">
+                <p>User research<br>A/B testing<br>Concept design<br>Userflows<br>Wireframes<br>Prototypes<br>Lo-Fi/Hi-Fi Mocups<br>Sketching, Drawing</p>
+            </ol>
+            <ol class="col s12 m6 l6">
+                <p>Figma<br>Adobe Suite<br>HTLM/CSS/Java Script<br>AutoCAD<br>Rhinoceros 3D<br>SketchUP<br>Lumion<br>ArcGIS</p>
+            </ol>
+            </ol>
+
+            <h4 class="PersonalSkills">Personal Skills</h4>
+            <ol class="PersonalSkills">
+                <p>Task prioritization and problem solving<br>Meticulous attention to details<br>Critical thinking<br>Reliability and adaptability<br>Document and file management<br>Confidentiality and data protection<br>Customer and client relation</p>
+                <li class="language">Language Skills:</li>
+                        <p>English - Fluent<br>Bosnian/Serbian/Croatian - Native</p>
+            </ol>
+
+            </div>
+
+            <div class="col s12 m6 l6">
+                <h4 class="Profile">Profile</h4>
+                <ol class="Profile">
+                    <p>Perceptive and organized UX Designer with a spatial design background, skilled in user-focused research and data-driven design. Seeking an opportunity to join an innovative design team and apply creativity and problem-solving skills to develop cutting-edge products that enhance user experience.</p>
+                </ol>
+                <h4 class="Experience">Experience</h4>
+                <ol class="Experience">
+                    <li class="job1">UX/UI Designer</li>
+                    <p>Doxa Coffee Roasters, May 2023</p>
+                    <ul>
+                        <li>&bull; Worked in a team of 4 to develop an e-commerce web and mobile platform for a local client in Austin, Texas</li>
+                        <li>&bull; Conducted research, created concept designs, performed usability tests, and created high-fidelity designs</li>
+                        <li>&bull; Utilized tools such as Figma, Adobe Illustrator, Google Slides, and Slack.</li>
+                    </ul>
+
+                    <li class="job2">Designers/Admin Assistant </li>
+                    <p>Hart Howerton, December 2019 - October 2022</p>
+                    <ul>
+                        <li>&bull; Assisted with filing and organizing project files, contract documents, specifications, physical and digital library</li>
+                        <li>&bull; Efficiently coordinated meetings and conference calls for senior staff</li>
+                        <li>&bull; Acted as a liaison to maintain communication between clients and vendors</li>
+                        <li>&bull; Handled confidential information and documents with care, ensuring organization</li>
+                    </ul>
+
+                    <li class="job3">Social Media Evaluator</li>
+                    <p>Appen/Freelance, November 2015 - May 2019</p>
+                    <ul>
+                        <li>&bull; Tracked social media analytics for campaign impact on specific and multiple markets.</li>
+                        <li>&bull; Evaluated monthly performance stats for future strategy development</li>
+                        <li>&bull; Assessed content and tone consistency to optimize social media accounts</li>
+                    </ul>   
+
+                    <a class="button">Download PDF</a>
+            </div>
+            
+
+        </div>
+    </div>
 </div>
 
 <!--Contact Section-->
-
 <div id="contact" class="section">
-    <h2 class="Center-align"></h2>
+    <h2 class="Center-align">CONTACT</h2>
+
+    <h4>Contact Form</h4>
+
+<div class="frame">
+    <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    </form>
+</div>
 </div>
 
-
     <!--This is where I load the Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
+    
     </body>
+
 </html>
+
