@@ -391,6 +391,7 @@ li.job3 {
 }
 .card3 {
     background-color: var(--primary-color);
+    background-image: linear-gradient(#70A9CB,#6c0f58);
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -401,7 +402,7 @@ li.job3 {
     border-radius: 20px;
 }
 .card3-content {
-    color: #164526;
+    color: #70A9CB;
     padding: 20px;
 }
 
