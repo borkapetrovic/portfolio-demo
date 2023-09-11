@@ -127,8 +127,9 @@ a {
     padding-top: 20vh;
     background-image: url('../images/Hero\ Image.jpg');
     background-size: cover;
-    background-attachment: fixed;
-    max-width: 100%;
+    background-position: fixed;
+    z-index: -1;
+    background-repeat: no-repeat;
 }
 
 
@@ -200,6 +201,8 @@ a {
     background-image: url('../images/Bio\ Image.jpg');
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
 /*CV Section*/
@@ -320,6 +323,7 @@ li.job3 {
 .mycard-content {
     color: #164526;
     padding: 20px;
+   n: 20px; margi
 }
 
 .card {
