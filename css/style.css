@@ -200,7 +200,7 @@ a {
 #bio {
     background-image: url('../images/Bio\ Image.jpg');
     background-size: cover;
-    background-position: 25% 75%;
+    background-position: 100%;
     background-attachment: scroll;
     z-index: -1;
     background-repeat: no-repeat;
