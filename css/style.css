@@ -200,8 +200,8 @@ a {
 #bio {
     background-image: url('../images/Bio\ Image.jpg');
     background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
+    background-position: fixed;
+    z-index: -1;
     background-repeat: no-repeat;
 }
 
